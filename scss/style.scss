@@ -1,0 +1,57 @@
+// out: ../css/style.css, sourcemap: true, compress: true
+@import url('https://fonts.googleapis.com/css?family=Exo:100,300,300i,400,600,700&subset=latin-ext');
+@import "includes/_variables";
+
+body {
+  font-family: 'Exo', sans-serif;
+}
+
+$footer-height: 120px;
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: $pink;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  color: $title-h1;
+  font-weight: 400;
+  margin-bottom: 40px;
+
+  span {
+    color: $pink;
+  }
+}
+
+input.form-control {
+  box-shadow: none;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+
+
+
+
+@import "includes/_header";
+@import "includes/_section-2.scss";
+@import "includes/_section-3.scss";
+@import "includes/_description.scss";
+@import "includes/_clients.scss";
+@import "includes/_browser.scss";
+@import "includes/_try-now.scss";
+@import "includes/_footer.scss";

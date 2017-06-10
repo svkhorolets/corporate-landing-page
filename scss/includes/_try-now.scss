@@ -1,0 +1,143 @@
+.rty-now {
+  background: $bg-blue;
+
+  .try-now_text {
+    text-align: center;
+    margin-top: 100px;
+
+    h2 {
+      color: $white;
+    }
+  }
+
+  .free {
+    margin-bottom: 50px;
+    position: relative;
+    width: 130%;
+    img {
+      display: inline;
+      position: absolute;
+      top: 10px;
+    }
+
+    p {
+      color: $white-text;
+      display: inline;
+      padding-left: 30px;
+    }
+  }
+
+  .btn-red {
+    height: 50px;
+  }
+
+  .form-control {
+    font-size: 16px;
+    background-color: rgba(70, 76, 119, .5) ;
+    height: 50px;
+    border: 1px solid $white-text;
+    // opacity: .5;
+    color: $white-text;
+  }
+
+  input::-webkit-input-placeholder {
+  color: $white-text!important;
+  text-transform: uppercase;
+  }
+
+  input:-moz-placeholder { /* Firefox 18- */
+  color: $white-text!important;
+  text-transform: uppercase;
+  }
+
+  input::-moz-placeholder {  /* Firefox 19+ */
+  color:  $white-text!important;
+  text-transform: uppercase;
+  }
+
+  input:-ms-input-placeholder {
+  color:  $white-text!important;
+  text-transform: uppercase;
+  }
+
+  .try-now-p {
+    text-align: center;
+    font-size: 16px;
+    color: $bg-sec-3;
+    margin: 40px;
+     a {
+      color: $bg-sec-3;
+      text-decoration: underline;
+      cursor: pointer;
+     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rty-now {
+    height: auto;
+
+    .try-now_text {
+      margin-top: 70px;
+
+      h3 {
+        font-size: 14px;
+      }
+
+      h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .free {
+      margin-bottom: 20px;
+    }
+
+    .form-control {
+      margin-top: 20px;
+    }
+
+    .btn-red {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .rty-now {
+    div[class*="col-xs-"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .try-now_text {
+      margin-top: 50px;
+
+      h3 {
+        font-size: 13px;
+      }
+
+      h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .try-now-p {
+      font-size: 14px;
+      margin: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .try-now {
+    .rty-now_text {
+      h2 {
+        font-size: 27px;
+      }
+    }
+  }
+}

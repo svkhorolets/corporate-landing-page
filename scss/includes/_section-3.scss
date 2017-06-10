@@ -1,0 +1,155 @@
+.section-3 {
+  height: 670px;
+  background: $bg-sec-3;
+  position: relative;
+  overflow-y: hidden;
+
+  img.coffee {
+    position: absolute;
+    right: 80px;
+    bottom: -130px;
+  }
+
+  img.earphones {
+    position: absolute;
+    right: 150px;
+    top: -30px;
+  }
+
+  img.pen {
+    position: absolute;
+    left: 130px;
+    top: -20px;
+  }
+
+  .section-3__title {
+    text-align: center;
+    margin-top: 130px;
+  }
+
+  .section-3__block {
+    text-align: center;
+
+    img {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 500;
+      color: $text-grey;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+  .section-3 {
+    padding-bottom: 60px;
+    height: auto;
+
+    img.pen {
+      width: 180px;
+      left: 40px;
+    }
+
+    img.earphones {
+      width: 160px;
+      right: 40px;
+    }
+
+    img.coffee {
+      width: 180px;
+    }
+
+    .section-3__block {
+      margin-bottom: 30px;
+
+
+      img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .section-3__title  {
+      h3 {
+        font-size: 14px;
+      }
+
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .section-3 {
+    padding-bottom: 60px;
+
+    img.pen {
+      width: 140px;
+      left: 20px;
+    }
+
+    img.earphones {
+      width: 120px;
+      right: 20px;
+    }
+
+    img.coffee {
+      width: 140px;
+      right: 10px;
+      bottom: -80px;
+    }
+
+    .section-3__block {
+      margin-bottom: 20px;
+
+
+      h4 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+      }
+    }
+
+    .section-3__title  {
+      margin-top: 110px;
+      h3 {
+        font-size: 13px;
+      }
+
+      h2 {
+        font-size: 32px;
+      }
+    }
+  }
+}

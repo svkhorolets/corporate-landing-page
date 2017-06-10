@@ -1,0 +1,49 @@
+.browser {
+  background: $bg-sec-3;
+  overflow-y: hidden;
+
+  .browser-text {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 660px;
+    margin-bottom: 40px;
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 500;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .browser {
+
+    .browser-text {
+      margin-top: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .browser {
+
+    .browser-text {
+      margin-top: 50px;
+
+      h3 {
+        font-size: 13px;
+      }
+
+      h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}
